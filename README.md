@@ -40,15 +40,6 @@ No build step, framework, or package installation is required.
 
 Each bar stores its target in a `data-progress` attribute. JavaScript observes the skills section with `IntersectionObserver`; when it becomes visible, the script reads and validates each target, sets it as a CSS custom property, and applies a class. CSS transitions the bar width from `0` to that target. The observer stops watching after the first reveal, so the animation runs only once. If `IntersectionObserver` is unavailable, the bars are shown directly. The progress indicators expose their current values to assistive technology.
 
-## Screenshots
-
-Add screenshots of the desktop and mobile layouts here after capturing them, for example:
-
-```text
-![Desktop preview](screenshots/desktop.png)
-![Mobile preview](screenshots/mobile.png)
-```
-
 ## Author
 
 Alex Morgan — replace this sample name and the placeholder resume, social, and email links in `index.html` with your own details.
